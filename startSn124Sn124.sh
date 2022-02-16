@@ -4,7 +4,6 @@
 
 #通过命令：crontab -e 编辑任务，将startSn124Sn124.sh加入定时任务
 
-
 #获取运行的批量运行文件脚本的进程ID
 mypid=`pgrep -f Sn124Sn124.sh`
 echo $mypid
