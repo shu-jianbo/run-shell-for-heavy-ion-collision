@@ -1,6 +1,7 @@
 #!/bin/bash
 #$ -S /bin/bash
 #$ -cwd
+
     bak=$IFS                                         #定义一个变量bak保存IFS的值
    if [ $# -ne 1 ];then                          #判断位置参数是否为1
        echo "Usage $0 skyrme-parameter-BUU-20.txt"  #skyrme-parameter-BUU-20.txt用于存放参数组名和对应的各个参数取值
